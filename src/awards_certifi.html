@@ -16,12 +16,18 @@
             height: 100vh;
         }
         .container {
+            max-width: 900px;
             text-align: center;
+            margin: auto;
+            background: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
         .images {
             display: flex;
             justify-content: space-between;
-            gap: 20px;
+            gap: 60px;
         }
         .images img {
             width: 200px;
@@ -31,19 +37,20 @@
             transition: transform 0.3s ease;
         }
         .images img:hover {
-            transform: scale(1.05);
+            transform: scale(3.5);
         }
     </style>
 </head>
 <body>
 
     <div class="container">
-        <h1>Image Gallery</h1>
+        <h1>Awards and Certificates</h1>
         <div class="images">
-            <img src="image1.jpg" alt="Image 1">
-            <img src="image2.jpg" alt="Image 2">
-            <img src="image3.jpg" alt="Image 3">
+            <img src="pic1.png" alt="Image 1">
+            <img src="pic2.png" alt="Image 2">
+            <img src="pic3.png" alt="Image 3">
         </div>
+        <h1>Sample Works</h1>
     </div>
 
 </body>
